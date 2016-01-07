@@ -1,0 +1,7 @@
+p Sub Navigation
+
+ul
+ li
+   = link-to "projects" | Project Home
+ li
+   = link-to "projects.project" | Project X
