@@ -1,2 +1,4 @@
-h1#title Welcome to Ember!
-= outlet
+h1 Application
+main-navigation
+
+= liquid-outlet

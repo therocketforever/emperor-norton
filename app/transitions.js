@@ -1,0 +1,23 @@
+export default function(){
+  this.transition(
+    this.fromRoute('index'),
+    this.toRoute('about'),
+    this.toRoute('projects'),
+    this.use('toLeft'),
+    this.reverse('toRight')
+  );
+  this.transition(
+    this.fromRoute('about'),
+    this.toRoute('index'),
+    this.toRoute('projects'),
+    this.use('toLeft'),
+    this.reverse('toRight')
+  );
+  this.transition(
+    this.fromRoute('projects'),
+    this.toRoute('index'),
+    this.toRoute('about'),
+    this.use('toLeft'),
+    this.reverse('toRight')
+  );
+}
